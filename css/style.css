@@ -188,8 +188,9 @@ nav > ul{
 	font-size: 2vw;
 }
 
-.hjertesaker-footer:hover .hjertesaker-footer span{
+.hjertesaker-footer span:hover{
 	color: var(--third-color);
+	cursor: pointer;
 }
 
 .hjertesaker-footer span {

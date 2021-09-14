@@ -57,7 +57,7 @@ li {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
-	border-radius: 2.5rem;
+	border-radius: 2vw;
 }
 
 li:hover{
@@ -109,6 +109,7 @@ nav > ul{
 	width: 50%;
 	font-size: 2.5rem;
 	text-align: center;
+	align-items: center;
 	color: var(--fifth-color);
 }
 
@@ -177,7 +178,6 @@ nav > ul{
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
-	height: 70%;
 }
 
 .hjertesaker-footer {
@@ -247,6 +247,75 @@ nav > ul{
 	color: var(--secondary-color);
 }
 
+.body-split{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+.body-split div{
+	display: flex;
+	width: 50%;
+	height: 80%;
+}
+
+.body-split div:nth-child(1){
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: var(--third-color);
+	font-size: 2vw;
+}
+
+.body-split div h2{
+	font-size: 5vw;
+	padding: 0 0 2vw 0;
+}
+
+.body-split div:nth-child(2){
+	justify-content: flex-end;
+}
+
+.button-submit{
+	display: flex;
+	width: 12vw;
+	height: 5vw;
+	background: var(--fourth-color);
+	font-size: 1.5vw;
+	margin: 2vw 0 0 0;
+	padding: 0.5 0;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	align-self: flex-start;
+	border-radius: 4rem;
+}
+
+.button-submit:hover{
+	background: var(--primary-color);
+}
+
+.grid{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	gap: 2%;
+}
+
+.grid-box{
+	background: var(--fourth-color);
+	border-radius: 2rem;
+	
+}
+
 #olje-plattform-bilde {
  display: flex;
  z-index: -1;
@@ -269,14 +338,15 @@ nav > ul{
 }
 
 #logo{
-	width: 12rem;
-	height: 12rem;
+	width: 7vw;
+	height: auto;
 }
 #logo-text{
-	width: 25rem;
-	height: 12rem;
-	padding: 2rem 0 2rem 2rem;
+	width: 20vw;
+	height: auto;
+	padding: 1vw 0 1vw 1vw;
 	text-transform: uppercase;
+	font-size: 2.5vw;
 }
 
 #main-nav li:nth-child(3){

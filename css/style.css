@@ -304,6 +304,7 @@ nav > ul{
 
 .grid{
 	display: grid;
+	padding: 2vw 0;
 	width: 100%;
 	height: 100%;
 	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
@@ -311,9 +312,19 @@ nav > ul{
 }
 
 .grid-box{
-	background: var(--fourth-color);
+	background: var(--third-color);
 	border-radius: 2rem;
 	
+}
+
+.grid-box-content{
+	display: flex;
+	padding: 2vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.4vw;
+	color: var(--fifth-color);
 }
 
 #olje-plattform-bilde {

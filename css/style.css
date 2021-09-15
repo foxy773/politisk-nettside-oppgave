@@ -216,7 +216,7 @@ nav > ul{
 	border-radius: 2rem;
 	padding: 3vw;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2vw;
 }
 
 .box-head {
@@ -246,9 +246,11 @@ nav > ul{
 	margin: 1.5vw 0 0 0;
 	font-size: 1.5vw;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	line-height: 2.8rem;
+	line-height: 2vw;
 	color: var(--secondary-color);
 }
+
+
 
 .body-split{
 	display: flex;
@@ -276,6 +278,7 @@ nav > ul{
 .body-split div h2{
 	font-size: 5vw;
 	padding: 0 0 2vw 0;
+	color: var(--fourth-color);
 }
 
 .body-split div:nth-child(2){
@@ -299,7 +302,7 @@ nav > ul{
 	text-transform: uppercase;
 	cursor: pointer;
 	align-self: flex-start;
-	border-radius: 4rem;
+	border-radius: 3vw;
 }
 
 .button-submit:hover{
@@ -311,31 +314,32 @@ nav > ul{
 	display: grid;
 	width: 100%;
 	height: 80%;
-	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
 	gap: 2%;
 }
 
 .grid-box{
 	display: flex;
    text-align: center;
-	border-radius: 2rem;
+	border-radius: 2vw;
 	background: var(--third-color);	
 }
 
 .grid-box-content{
 	display: flex;
-	padding: 1vw;
+	padding: 2vw;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	color: var(--fifth-color);
 }
 
 .grid-box-content > p{
 	padding: 1vw 0 0 0;
-	font-size: 0.8vw;
-	font-weight: lighter;
+	font-size: 1.1vw;
+	line-height: 1.5vw;
+	
 }
 
 .section-header{
@@ -345,6 +349,18 @@ nav > ul{
 	font-size: 2vw;
 	color: var(--fourth-color);
 	margin: 0 0 4vw 0;
+}
+
+.box1 p{
+	color: var(--sixth-color);
+}
+
+.box2 p{
+	color: var(--fourth-color);
+}
+
+.box3 p{
+	color: var(--seventh-color);
 }
 
 #section4{

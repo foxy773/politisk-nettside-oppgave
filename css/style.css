@@ -476,7 +476,6 @@ nav > ul{
  min-height: 100%;
  width: auto; 
  height: auto; 
- z-index: -1;
  overflow: hidden;
 }
 

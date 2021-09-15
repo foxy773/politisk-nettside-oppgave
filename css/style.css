@@ -18,6 +18,15 @@ body {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+footer{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	height: 30vw;
+	width: 100%;
+	background: var(--primary-color);
+}
+
 input {
 	border: 2px solid red;
 	border-radius: 4px;
@@ -342,6 +351,47 @@ nav > ul{
 	
 }
 
+.grid-footer{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	padding: 6vw 2vw 2vw 2vw;
+	grid-template: 1fr / 1fr 1fr 1fr;
+	column-gap: 2vw;
+}
+
+.grid-box-footer{
+	color: var(--fifth-color);
+	display: flex;
+	flex-direction: column;
+	font-size: 1.7vw;
+	line-height: 2.2vw;
+}
+
+.grid-box-footer h3{
+	margin: 0 0 2vw 0;
+}
+
+.grid-box-footer a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: var(--fourth-color);
+}
+
+.footer-links{
+	display: flex;
+	align-items: center;
+	padding: 0.5vw;
+	height: 10%;
+	width: 40%;
+}
+
+.footer-links:hover{
+	cursor: pointer;
+	background: var(--fifth-color);
+	border-radius: 2vw;
+}
+
 .section-header{
 	display: flex;
 	justify-content: center;
@@ -349,6 +399,40 @@ nav > ul{
 	font-size: 2vw;
 	color: var(--fourth-color);
 	margin: 0 0 4vw 0;
+}
+
+.footer-socials{
+	display: flex;
+	align-items: center;
+	padding: 0.5vw;
+	height: 10%;
+	width: 40%;
+}
+
+.footer-contact{
+	display: flex;
+	align-items: center;
+	padding: 0.5vw;
+	height: 20%;
+	width: 100%;
+}
+
+.footer-socials img{
+	width: 2vw;
+	height: auto;
+	padding: 0 1vw 0 0;
+}
+
+.footer-contact img{
+	width: 2vw;
+	height: auto;
+	padding: 0 1vw 0 0;
+}
+
+.footer-socials:hover{
+	background: var(--fifth-color);
+	border-radius: 2vw;
+	cursor: pointer;
 }
 
 .box1 p{
@@ -370,7 +454,14 @@ nav > ul{
 
 #body-main-section4{
 	height: 80%;
-	padding: 0 20vw;
+	padding: 0 10vw;
+}
+
+#right-arrow{
+	width: 2vw;
+	height: auto;
+	margin: 0 0 0 0.5vw;
+	fill: var(--primary-color);
 }
 
 
@@ -397,6 +488,15 @@ nav > ul{
 #logo{
 	width: 7vw;
 	height: auto;
+}
+
+#logo-footer{
+	position: absolute;
+	z-index: 99;
+	top: -6vw;
+	width: 12vw;
+	height: 12vw;
+	margin: 0 0 30vw 0;
 }
 #logo-text{
 	width: 20vw;

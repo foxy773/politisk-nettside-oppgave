@@ -29,13 +29,46 @@ footer{
 }
 
 input {
-	border: 2px solid red;
-	border-radius: 4px;
-	padding: 12px 20px;
-	font-size: 40px;
-	border-radius: 50px;
-	background-color: #e8eddf;
+	border: 0.2vw solid var(--seventh-color);
+	font-size: 1.5vw;
+	border-radius: 2vw;
+	padding: 0.5vw 1vw;
+	background-color: var(--secondary-color);
 	outline: none;
+}
+
+form {
+	display: flex;
+	justify-content: space-around;
+	height: 80%;
+	background: var(--third-color);
+	font-size: 1.4vw;
+	border-radius: 2vw;
+	padding: 2vw;
+}
+
+fieldset{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	border: 0;
+	max-width: 40vw;
+}
+
+fieldset textarea{
+	border: 0.2vw solid var(--seventh-color);
+	font-size: 1vw;
+	border-radius: 2vw;
+	padding: 0.5vw 1vw;
+	background-color: var(--secondary-color);
+	outline: none;
+	height: 40%;
+	width: 29.5vw;
+	max-width: 29.5vw;
+}
+
+fieldset label{
+	margin: 2vw 0 0 1vw;
 }
 
 section {
@@ -373,15 +406,16 @@ nav > ul{
 }
 
 .grid-box-footer a{
-	font-size: 1.5vw;
+	font-size: 1.4vw;
 	text-decoration: none;
 	color: var(--fourth-color);
+	width: 100%;
 }
 
 .footer-links{
 	display: flex;
 	align-items: center;
-	padding: 0.5vw;
+	padding: 0.2vw;
 	height: 10%;
 	width: 40%;
 }
@@ -407,7 +441,7 @@ nav > ul{
 	margin: 0 0 4vw 0;
 }
 
-.footer-socials{
+.footer-socials {
 	display: flex;
 	align-items: center;
 	padding: 0.5vw;
@@ -415,7 +449,7 @@ nav > ul{
 	width: 40%;
 }
 
-.footer-contact{
+.footer-contact {
 	display: flex;
 	align-items: center;
 	padding: 0.5vw;
@@ -423,54 +457,59 @@ nav > ul{
 	width: 100%;
 }
 
-.footer-socials img{
+.footer-socials img {
 	width: 1.2vw;
 	height: auto;
 	margin: 0 1vw 0 0;
 }
 
-.footer-contact img{
+.footer-contact img {
 	width: 2.6vw;
 	height: auto;
 	margin: 0 2vw 0 0;
 }
 
-.footer-socials:hover{
+.footer-socials:hover {
 	background: var(--fifth-color);
 	border-radius: 2vw;
 	cursor: pointer;
 }
 
-.box1 p{
+.box1 p {
 	color: var(--sixth-color);
 }
 
-.box2 p{
+.box2 p {
 	color: var(--fourth-color);
 }
 
-.box3 p{
+.box3 p {
 	color: var(--seventh-color);
 }
 
-#section4{
+#section4 {
 	display: flex;
 	align-items: center;
 }
 
-#body-main-section4{
+#body-main-section4 {
 	height: 80%;
 	padding: 0 10vw;
 }
 
-#right-arrow{
+#right-arrow {
 	width: 2vw;
 	height: auto;
 	margin: 0 0 0 0.5vw;
 }
 
-#right-arrow:hover{
-	fill: #ee6c4d !important;
+#right-arrow .cls-1 {
+	fill: var(--fourth-color);
+}
+
+#right-arrow .cls-1:hover {
+	fill: var(--third-color);
+	cursor: pointer;
 }
 
 #olje-plattform-bilde {

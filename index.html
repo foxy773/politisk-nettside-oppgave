@@ -203,11 +203,10 @@
 					<fieldset>
 						<legend>Kontakt Oss</legend>
 						<label for="firstname">Fornavn</label>
-						<input type="text" name="firstname" id="firstname" value="" autocomplete="off" required
-							placeholder="Ola">
+						<input type="text" name="fname" id="fname" value="" autocomplete="off" required placeholder="Ola">
 
 						<label for="familyname">Etternavn</label>
-						<input type="text" name="familyname" id="familyname" value="" required placeholder="Nordmann">
+						<input type="text" name="lname" id="lname" value="" required placeholder="Nordmann">
 
 						<label for="email">Epost</label>
 						<input type="email" name="email" id="email" required value="" placeholder="ola@nordmann.no">
@@ -226,7 +225,7 @@
 							<label>Kvinne</label><input type="radio" name="gender">
 						</div>
 						<div class="radio">
-							<label>Ikke angitt</label><input type="radio" name="gender">
+							<label>Ikke angitt</label><input type="radio" name="gender" required>
 						</div>
 						<button type="submit" value="send data">Send</button>
 					</fieldset>

@@ -144,6 +144,13 @@ li a{
 	color: var(--fifth-color);
 }
 
+li img {
+	width: 1vw;
+	height: auto;
+	pointer-events: none;
+	z-index: 20;
+}
+
 nav{
 	display: flex;
 	flex-direction: row;
@@ -531,8 +538,11 @@ nav > ul{
 }
 
 #body-main-section4 {
+	display: flex;
+	flex-direction: column;
 	height: 80%;
 	padding: 0 10vw;
+	justify-content: center;
 }
 
 #body-main-section5 {
@@ -596,11 +606,11 @@ nav > ul{
 	font-size: 2.5vw;
 }
 
-#main-nav li:nth-child(3){
+#main-nav li:nth-child(4){
 	background: var(--third-color);
 }
 
-#main-nav li:nth-child(3):hover{
+#main-nav li:nth-child(4):hover{
 	background: var(--fourth-color);
 }
 

@@ -16,48 +16,44 @@
 <body>
 	<header class="header">
 		<div class="header-left">
-			<img id="logo" src="./images/Oljepartiet-logo.svg" alt="">
+			<img id="logo" src="./images/Oljepartiet-logo.svg" alt="En svart dråpe i en orange sirkel">
 			<h2 id="logo-text">Oljepartiet de beste</h2>
 		</div>
 		<div class="header-right">
 			<nav>
 				<ul id="main-nav">
-					<li><a href="#section2">Hjertesaker</a></li>
-					<li><a href="#section3">Hvorfor</a></li>
-					<li><a href="#section4">Derfor</a></li>
-					<li><a href="#section5">Kontakt oss</a></li>
-					<div id="marker">
-					</div>
+					<li><a href="#hjertesaker">Hjertesaker</a></li>
+					<li><a href="#hvorfor">Hvorfor</a></li>
+					<li><a href="#derfor">Derfor</a></li>
+					<li><a href="#kontakt-oss">Kontakt oss</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<!--Hvis jeg vil ha en mindre header som legger
-	 seg under hoved header <div class="header-small"> </div>-->
+
 	<main class="main-container">
-		<section class="section1" id="section1">
+		<section class="section" id="hjem">
 			<div class="body-header" id="body-header">
 				<div class="video-container">
 					<video id="olje-plattform-bilde" loop="true" autoplay="true" muted="true"
 						src="./images/olje-plattform-bg.mp4" type="video/mp4"></video>
 				</div>
-				<!--Gjør om article til en div, også bruk article hvor det er mer skrift-->
 				<article class="body-header-content">
 					<h1>olje er fremtiden</h1>
 				</article>
 			</div>
 		</section>
-		<section class="section2" id="section2">
+		<section class="section" id="hjertesaker">
 			<div class="body-main">
 				<div class="hjertesaker" id="hjertesaker">
 					<div class="hjertesaker-head">
 						<h2>Hjertesaker</h2>
-						<img id="blue-heart" src="./images/blått-hjerte.svg" alt="">
+						<img id="blue-heart" src="./images/blått-hjerte.svg" alt="Et blått hjerte">
 					</div>
 					<div class="hjertesaker-main">
 						<div class="cards box1">
 							<div class="box-head">
-								<img id="oil-drum" src="./images/oil-drum.svg" alt="" />
+								<img id="oil-drum" src="./images/oil-drum.svg" alt="En lysegrønn oljetønne" />
 							</div>
 							<div class="box-main">
 								<h3>Olje & gass produksjon</h3>
@@ -70,7 +66,7 @@
 						</div>
 						<div class="cards box2">
 							<div class="box-head">
-								<img id="taxes" src="./images/taxes.svg" alt="" />
+								<img id="taxes" src="./images/taxes.svg" alt="Et lyserødt ark" />
 							</div>
 							<div class="box-main">
 								<h3>Olje & gass produksjon</h3>
@@ -82,7 +78,7 @@
 						</div>
 						<div class="cards box3">
 							<div class="box-head">
-								<img id="working-at-home" src="./images/working-at-home.svg" alt="" />
+								<img id="working-at-home" src="./images/working-at-home.svg" alt="En gul person som jobber på en datamaskin" />
 							</div>
 							<div class="box-main">
 								<h3>Olje & gass produksjon</h3>
@@ -95,7 +91,7 @@
 						</div>
 					</div>
 					<div class="hjertesaker-footer">
-						<h3>Alt om vår <span>politikk</span></h3>
+						<h3>Alt om vår <span><a href="#hvorfor">politikk</a></span></h3>
 						<svg id="right-arrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 447.38">
 							<defs>
 								<style>
@@ -115,7 +111,7 @@
 			</div>
 			</div>
 		</section>
-		<section class="section3" id="section3">
+		<section class="section" id="hvorfor">
 			<div class="body-main">
 				<div class="body-split">
 					<div>
@@ -123,10 +119,10 @@
 						<p>Er du usikker på hva du skal stemme ? Vi gir deg noen veldige gode grunner til at du bør
 							velge
 							Oljepartiet i år. </p>
-						<a href="#section4" class="button-submit">Finn ut her!</a>
+						<a href="#derfor" class="button-submit">Finn ut her!</a>
 					</div>
 					<div>
-						<img src="./images/happy.jpg" alt="">
+						<img src="./images/happy.jpg" alt="En glad jente">
 					</div>
 				</div>
 			</div>
@@ -134,7 +130,7 @@
 
 			</div>
 		</section>
-		<section class="section4" id="section4">
+		<section class="section" id="derfor">
 			<div class="body-main" id="body-main-section4">
 				<div class="section-header">
 					<h2>Gode grunner til å stemme på oss:</h2>
@@ -197,7 +193,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section5" id="section5">
+		<section class="section" id="kontakt-oss">
 			<div class="body-main" id="body-main-section5">
 				<form action="result.html" method="GET" id="">
 					<fieldset>
@@ -216,7 +212,7 @@
 							value=""></textarea>
 					</fieldset>
 					<fieldset>
-						<legend>Tilleginformasjon</legend>
+						<legend>Tillegsinformasjon</legend>
 						<h4>Kjønn</h4>
 						<div class="radio">
 							<label>Mann</label><input type="radio" name="gender">
@@ -234,66 +230,66 @@
 		</section>
 	</main>
 	<footer>
-		<img src="./images/Oljepartiet-logo.svg" alt="" id="logo-footer">
+		<img src="./images/Oljepartiet-logo.svg" alt="En svart dråpe i en orange sirkel" id="logo-footer">
 		<div class="grid-footer">
 			<div class="grid-box-footer">
 				<h3>Side linker</h3>
-				<div class="footer-links" href="#section1">
-					<img src="./images/home.svg" alt="">
-					<a href="#section1">Hjem</a>
+				<div class="footer-links" href="#hjem">
+					<img src="./images/home.svg" alt="Et orange hus">
+					<a href="#hjem">Hjem</a>
 				</div>
-				<div class="footer-links" href="#section2">
-					<img src="./images/blått-hjerte.svg" alt="">
-					<a href="#section2">Hjertesaker</a>
+				<div class="footer-links" href="#hjertesaker">
+					<img src="./images/blått-hjerte.svg" alt="Et blått hjerte">
+					<a href="#hjertesaker">Hjertesaker</a>
 				</div>
-				<div class="footer-links" href="#section3">
-					<img src="./images/question.svg" alt="">
-					<a href="#section3">Hvorfor</a>
+				<div class="footer-links" href="#hvorfor">
+					<img src="./images/question.svg" alt="Et lyseblått spørsmålstegn">
+					<a href="#hvorfor">Hvorfor</a>
 				</div>
-				<div class="footer-links" href="#section4">
-					<img src="./images/idea.svg" alt="">
-					<a href="#section4">Derfor</a>
+				<div class="footer-links" href="#derfor">
+					<img src="./images/idea.svg" alt="En gul lyspære">
+					<a href="#derfor">Derfor</a>
 				</div>
-				<div class="footer-links" href="#section5">
-					<img src="./images/contact.svg" alt="">
-					<a href="#section5">Kontakt oss</a>
+				<div class="footer-links" href="#kontakt-oss">
+					<img src="./images/contact.svg" alt="En grønn telefon og en rød konvolutt">
+					<a href="#kontakt-oss">Kontakt oss</a>
 				</div>
 			</div>
 			<div class="grid-box-footer">
 				<h3>Sosiale medier</h3>
 				<div class="footer-socials">
-					<img src="./images/facebook.svg" alt="">
+					<img src="./images/facebook.svg" alt="Facebook logo">
 					<a href="https://www.facebook.com/" target=”_blank”>Facebook</a>
 				</div>
 				<div class="footer-socials">
-					<img src="./images/twitter.svg" alt="">
+					<img src="./images/twitter.svg" alt="Twitter logo">
 					<a href="https://www.twitter.com/" target=”_blank”>Twitter</a>
 				</div>
 				<div class="footer-socials">
-					<img src="./images/instagram.svg" alt="">
+					<img src="./images/instagram.svg" alt="Instagram logo">
 					<a href="https://www.instagram.com/" target=”_blank”>Instagram</a>
 				</div>
 				<div class="footer-socials">
-					<img src="./images/linkedin.svg" alt="">
+					<img src="./images/linkedin.svg" alt="Linkedin logo">
 					<a href="https://www.linkedin.com/" target=”_blank”>Linkedin</a>
 				</div>
 				<div class="footer-socials">
-					<img src="./images/youtube.svg" alt="">
+					<img src="./images/youtube.svg" alt="Youtube logo">
 					<a href="https://www.youtube.com/" target=”_blank”>Youtube</a>
 				</div>
 			</div>
 			<div class="grid-box-footer">
 				<h3>Kontakt oss</h3>
 				<div class="footer-contact">
-					<img src="./images/email.svg" alt="">
+					<img src="./images/email.svg" alt="Et blått brev">
 					<p>oljeerbest@oljepartiet.no</p>
 				</div>
 				<div class="footer-contact">
-					<img src="./images/telephone.svg" alt="">
+					<img src="./images/telephone.svg" alt="En blå telefon">
 					<p>(+47) 000 00 000</p>
 				</div>
 				<div class="footer-contact">
-					<img src="./images/placeholder.svg" alt="">
+					<img src="./images/placeholder.svg" alt="En rød nål">
 					<p>Adresse Stortingsgaten 69, 0161 Oslo</p>
 				</div>
 			</div>

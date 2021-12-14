@@ -25,7 +25,7 @@ footer {
 	height: 30vw;
 	width: 100%;
 	background: var(--primary-color);
-	margin-top: 10vw;
+	margin-top: 200px;
 }
 
 input {
@@ -104,7 +104,7 @@ h1 {
 	text-transform: uppercase;
 }
 
-h4{
+h4 {
 	font-size: 2vw;
 }
 
@@ -252,7 +252,7 @@ nav > ul {
 	margin: 0 0 3vw 0;
 }
 
-.hjertesaker-head > img{
+.hjertesaker-head > img {
 	margin: 0 0 0 2vw;
 }
 
@@ -271,14 +271,13 @@ nav > ul {
 	font-size: 2vw;
 }
 
-.hjertesaker-footer span a:hover {
+.hjertesaker-footer span:hover {
 	color: var(--third-color);
 	cursor: pointer;
 }
 
-.hjertesaker-footer span a{
+.hjertesaker-footer span {
 	color: var(--fourth-color);
-	text-decoration: none;
 }
 
 .body-main {
@@ -312,7 +311,7 @@ nav > ul {
 	height: auto;
 }
 
-.box-main{
+.box-main {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -321,7 +320,7 @@ nav > ul {
 	font-size: 2.5vw;
 }
 
-.box-content{
+.box-content {
 	height: 100%;
 	width: 100%;
 	margin: 1.5vw 0 0 0;
@@ -331,9 +330,7 @@ nav > ul {
 	color: var(--secondary-color);
 }
 
-
-
-.body-split{
+.body-split {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -341,13 +338,13 @@ nav > ul {
 	height: 100%;
 }
 
-.body-split div{
+.body-split div {
 	display: flex;
 	width: 50%;
 	height: 80%;
 }
 
-.body-split div:nth-child(1){
+.body-split div:nth-child(1) {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -356,17 +353,17 @@ nav > ul {
 	font-size: 2vw;
 }
 
-.body-split div h2{
+.body-split div h2 {
 	font-size: 5vw;
 	padding: 0 0 2vw 0;
 	color: var(--fourth-color);
 }
 
-.body-split div:nth-child(2){
+.body-split div:nth-child(2) {
 	justify-content: flex-end;
 }
 
-.button-submit{
+.button-submit {
 	display: flex;
 	width: 12vw;
 	height: 5vw;
@@ -386,27 +383,27 @@ nav > ul {
 	border-radius: 3vw;
 }
 
-.button-submit:hover{
+.button-submit:hover {
 	background: var(--primary-color);
 }
 
-.grid{
+.grid {
 	box-sizing: content-box;
 	display: grid;
 	width: 100%;
 	height: 80%;
-	grid-template: 1fr 1fr /repeat(3, 1fr);
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
 	gap: 2%;
 }
 
-.grid-box{
+.grid-box {
 	display: flex;
-    text-align: center;
+   text-align: center;
 	border-radius: 2vw;
 	background: var(--third-color);	
 }
 
-.grid-box-content{
+.grid-box-content {
 	display: flex;
 	padding: 2vw;
 	flex-direction: column;
@@ -416,14 +413,14 @@ nav > ul {
 	color: var(--fifth-color);
 }
 
-.grid-box-content > p{
+.grid-box-content > p {
 	padding: 1vw 0 0 0;
 	font-size: 1.1vw;
 	line-height: 1.5vw;
 	
 }
 
-.grid-footer{
+.grid-footer {
 	display: grid;
 	width: 100%;
 	height: 100%;
@@ -432,7 +429,7 @@ nav > ul {
 	column-gap: 2vw;
 }
 
-.grid-box-footer{
+.grid-box-footer {
 	color: var(--fifth-color);
 	display: flex;
 	flex-direction: column;
@@ -440,18 +437,18 @@ nav > ul {
 	line-height: 2.2vw;
 }
 
-.grid-box-footer h3{
+.grid-box-footer h3 {
 	margin: 0 0 1.2vw 0;
 }
 
-.grid-box-footer a{
+.grid-box-footer a {
 	font-size: 1.4vw;
 	text-decoration: none;
 	color: var(--fourth-color);
 	width: 100%;
 }
 
-.footer-links{
+.footer-links {
 	display: flex;
 	align-items: center;
 	padding: 0.2vw;
@@ -459,19 +456,19 @@ nav > ul {
 	width: 40%;
 }
 
-.footer-links img{
+.footer-links img {
 	width: 1.2vw;
 	height: auto;
 	margin: 0 1vw 0 0;
 }
 
-.footer-links:hover{
+.footer-links:hover {
 	cursor: pointer;
 	background: var(--fifth-color);
 	border-radius: 2vw;
 }
 
-.section-header{
+.section-header {
 	display: flex;
 	justify-content: center;
 	height: auto;
@@ -526,12 +523,17 @@ nav > ul {
 	color: var(--seventh-color);
 }
 
-.radio{
+.radio {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 1.2vw;
 	width: 26%;
+}
+
+#section4 {
+	display: flex;
+	align-items: center;
 }
 
 #body-main-section4 {
@@ -577,17 +579,17 @@ nav > ul {
  overflow: hidden;
 }
 
-#blue-heart{
+#blue-heart {
 	width: 4vw;
 	height: 4vw;
 }
 
-#logo{
+#logo {
 	width: 7vw;
 	height: auto;
 }
 
-#logo-footer{
+#logo-footer {
 	position: absolute;
 	z-index: 99;
 	top: -6vw;
@@ -595,7 +597,7 @@ nav > ul {
 	height: 12vw;
 	margin: 0 0 30vw 0;
 }
-#logo-text{
+#logo-text {
 	width: 20vw;
 	height: auto;
 	padding: 1vw 0 1vw 1vw;
@@ -603,10 +605,10 @@ nav > ul {
 	font-size: 2.5vw;
 }
 
-#main-nav li:nth-child(4){
+#main-nav li:nth-child(4) {
 	background: var(--third-color);
 }
 
-#main-nav li:nth-child(4):hover{
+#main-nav li:nth-child(4):hover {
 	background: var(--fourth-color);
 }
